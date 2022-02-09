@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+body{
+    background-image: url(../images/pexels-karolina-grabowska-4968663.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media  screen and (max-width: 968px) {
+    body {
+        background-image: url(../images/pexels-karolina-grabowska-4386476.jpg);
+        background-size: cover;
+    }
+}
+header{
+    height: 15vh;
+    position: absolute;
+    right: 200px;
+    display: grid;
+    place-items: center;
+}
+header ul{
+    width: 400px;
+    justify-content: space-between;
+    display: flex;
+    font-family: sans-serif;
+    font-size : 20px;
+}
+header ul a{
+    text-decoration: none;
+}
+header ul a:visited{
+    color: black;
+}
+.logo{
+    background: url(../images/d50ccc56-eb6e-4599-a0bf-8cfa122b7948.svg);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 10vw;
+    top: 35px;
+}
+.about{
+    position: absolute;
+    left: 10vw;
+    top: 30%;
+    max-width: 400px;
+}
+#p1{
+    font-family: sans;
+    font-size: 20px;
+    width: 100%;
+}
+#p2{
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: larger;
+    text-align: end;
+}
+.log{
+    height: 70vh;
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.log div{
+    height: 40px;
+    width: 100px;
+    background: green;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 160px;
+}
+.signup{
+    right: 13%;
+}
+.login{
+    left: 13%;
+}
+.simple, .tool{
+    font-size: 15px;
+}
+#logIn{
+    position: absolute;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    /* display: none; */
+}
